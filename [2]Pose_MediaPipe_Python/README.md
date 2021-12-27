@@ -15,4 +15,4 @@ pip install mediapipe==0.8.3
 
 代码逻辑都还比较简单，README我就写简单一些了，后面有时间再来润色，蛤蛤
 
-具体的可以参考我的博客：[链接](https://blog.csdn.net/zmdsjtu/article/details/122089815?spm=1001.2014.3001.5501)
+具体的可以参考我的博客：[链接](https://blog.csdn.net/zmdsjtu)
