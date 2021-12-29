@@ -9,6 +9,7 @@ from utils.hand_tracking_mediapipe import InputData, InitHandTracking, ShowResul
 
 # 初始化输入源, file支持数字（相机）以及视频文件路径，图片路径或文件夹路径
 input_data = InputData(file="test/hand_tracking.mp4") # InputData(0) #默认调用相机  # InputData(file="test/imgs")
+InputData(file="test/imgs")
 # 初始化手势追踪tracker
 hand_track = InitHandTracking(use_static_mode = input_data.use_img_list)
 # 获取图像以及结果的generator
