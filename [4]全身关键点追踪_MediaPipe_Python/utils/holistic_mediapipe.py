@@ -123,8 +123,8 @@ class ShowResult:
                 img,
                 results.face_landmarks,
                 mp.solutions.holistic.FACE_CONNECTIONS,
-                connection_drawing_spec= connect_face,
-                landmark_drawing_spec = landmark_face
+                connection_drawing_spec=connect_face,
+                landmark_drawing_spec=landmark_face
             )
             mp.solutions.drawing_utils.draw_landmarks(
                 img,
